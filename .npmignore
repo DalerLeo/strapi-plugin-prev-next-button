@@ -1,0 +1,21 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore logs
+logs/
+
+# Ignore database files
+*.db
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+package-lock.json
+.gitignore
+.npmignore
+

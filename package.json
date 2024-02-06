@@ -1,0 +1,61 @@
+{
+  "name": "strapi-plugin-prev-next-button",
+  "version": "1.0.0",
+  "description": "Prev/Next buttons in Edit view",
+  "strapi": {
+    "name": "prev-next-button",
+    "description": "Prev/Next buttons in Edit view",
+    "kind": "plugin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DalerLeo/strapi-plugin-prev-next-button.git"
+  },
+  "devDependencies": {
+    "@strapi/design-system": "^1.6.3",
+    "@strapi/helper-plugin": "^4.6.0",
+    "@strapi/icons": "^1.6.3",
+    "@strapi/typescript-utils": "^4.6.0",
+    "@types/react": "^17.0.53",
+    "@types/react-dom": "^18.0.28",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.26",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.6",
+    "typescript": "5.0.4"
+  },
+  "peerDependencies": {
+    "@strapi/strapi": "^4.9.0",
+    "react": "^17.0.0 || ^18.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0",
+    "react-router-dom": "^5.2.0",
+    "styled-components": "^5.2.1"
+  },
+  "author": {
+    "name": "Daler Abdullaev",
+    "url": "https://github.com/DalerLeo"
+  },
+  "maintainers": [
+    {
+      "name": "Daler Abdullaev",
+      "url": "https://github.com/DalerLeo"
+    }
+  ],
+  "engines": {
+    "node": ">=18.0.0 <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "develop": "tsc -p tsconfig.server.json -w",
+    "build": "tsc -p tsconfig.server.json",
+    "prepack": "npm run build"
+  },
+  "license": "MIT",
+  "keywords": [
+    "strapi",
+    "strapi-plugin",
+    "strapi-admin",
+    "strapi-plugin-prev-next-button"]
+}
