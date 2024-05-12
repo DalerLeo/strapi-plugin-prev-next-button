@@ -4,11 +4,11 @@ import pluginId from "../pluginId";
 export type PrevNext = {
   prev: {
     id: number;
-    name: string;
+    label: string;
   } | null;
   next: {
     id: number;
-    name: string;
+    label: string;
   } | null;
 };
 

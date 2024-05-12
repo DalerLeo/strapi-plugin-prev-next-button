@@ -64,14 +64,14 @@ const PrevNextButton = () => {
       <IconButton
         disabled={!prevNext.prev}
         onClick={onPrev}
-        label={prevNext.prev?.name}
+        label={prevNext.prev?.label}
         icon={<PrevIcon />}
       />
-      <Typography>prev / next</Typography>
+      <Typography>Prev / Next</Typography>
       <IconButton
         disabled={!prevNext.next}
         onClick={onNext}
-        label={prevNext.next?.name}
+        label={prevNext.next?.label}
         icon={<NextIcon />}
       />
     </Flex>
