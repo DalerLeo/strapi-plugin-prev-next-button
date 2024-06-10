@@ -32,6 +32,13 @@ module.exports = () => ({
 ```
 
 ## How to use
-After activation of the Plugin, click the Prev-Next Buttons will be available in the edit view for an easy navigation.
-
+- ✨ After activation of the Plugin, click the Prev-Next Buttons will be available in the edit view for an easy navigation.
 ![](public/screenshot.png)
+
+
+- ✨ Both buttons show prev/next entry title on hover. The title is read from `mainField` which is configured via Configure the view.
+![](public/screenshot-tooltip.jpg)
+
+
+- ✨ Current implementation sorts by ID. improvements are coming soon.
+
