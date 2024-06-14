@@ -1,7 +1,7 @@
 import { EntityService } from '@strapi/strapi'
 
 export const transformEntry = (
-  entry: EntityService.Result<any> | EntityService.Result<any>[] | null,
+  entry: EntityService.Result<any> | EntityService.Result<any>[] | null | undefined,
   mainField: string
 ) => {
   if (!entry || !entry?.[0]) return null;

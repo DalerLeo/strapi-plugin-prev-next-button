@@ -40,5 +40,6 @@ module.exports = () => ({
 ![](public/screenshot-tooltip.jpg)
 
 
-- ✨ Current implementation sorts by ID. improvements are coming soon.
+- ✨ Sorting to show prev/next implemented by `defaultSortBy` and `defaultSortOrder` defined in Configure the View Settings. Improvements are coming soon.
+![](public/screenshot-config-view.png)
 

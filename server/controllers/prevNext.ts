@@ -13,7 +13,7 @@ export default ({ strapi }: { strapi: Strapi }) => ({
       .plugin(pluginId)
       .service('prevNextItems')
       .getPrevNextItems(ctx.params.uid, ctx.params.id);
-      
+
       ctx.type = 'application/json; charset=utf-8';
       ctx.send(prevNextItems);
   },
